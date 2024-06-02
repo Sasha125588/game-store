@@ -11,7 +11,7 @@ export const CartMenu = ({
   items: any[];
   onClick: React.MouseEventHandler<HTMLButtonElement>;
 }) => {
-  const [parent, enableAnimations] = useAutoAnimate(/* optional config */)
+  const [parent] = useAutoAnimate(/* optional config */)
   console.log(items);
   return (
     <div className="absolute top-7	left-[-300px] py-4 px-5 z-20	w-96	bg-zinc-800	rounded-lg	">
