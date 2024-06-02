@@ -6,7 +6,7 @@ import { setCurrentGame } from "../../redux/games/reducer";
 
 type Props = {
   id: number;
-  price: number;
+  price: any;
   title: string;
   thumbnail: string;
   short_description: string;

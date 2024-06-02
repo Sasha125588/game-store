@@ -5,6 +5,7 @@ import { faker } from '@faker-js/faker';
 const GAMES = [
   {
     id: 540,
+    price: null,
     title: 'Overwatch 2',
     thumbnail: 'https://www.freetogame.com/g/540/thumbnail.jpg',
     short_description:
@@ -19,6 +20,7 @@ const GAMES = [
   },
   {
     id: 517,
+    price: null,
     title: 'Lost Ark',
     thumbnail: 'https://www.freetogame.com/g/517/thumbnail.jpg',
     short_description:
@@ -33,6 +35,7 @@ const GAMES = [
   },
   {
     id: 516,
+    price: null,
     title: 'PUBG: BATTLEGROUNDS',
     thumbnail: 'https://www.freetogame.com/g/516/thumbnail.jpg',
     short_description:
@@ -47,6 +50,7 @@ const GAMES = [
   },
   {
     id: 508,
+    price: null,
     title: 'Enlisted',
     thumbnail: 'https://www.freetogame.com/g/508/thumbnail.jpg',
     short_description:
@@ -61,6 +65,7 @@ const GAMES = [
   },
   {
     id: 345,
+    price: null,
     title: 'Forge of Empires',
     thumbnail: 'https://www.freetogame.com/g/345/thumbnail.jpg',
     short_description:
@@ -75,6 +80,7 @@ const GAMES = [
   },
   {
     id: 475,
+    price: null,
     title: 'Genshin Impact',
     thumbnail: 'https://www.freetogame.com/g/475/thumbnail.jpg',
     short_description:
@@ -89,6 +95,7 @@ const GAMES = [
   },
   {
     id: 523,
+    price: null,
     title: 'Fall Guys',
     thumbnail: 'https://www.freetogame.com/g/523/thumbnail.jpg',
     short_description:
@@ -103,6 +110,7 @@ const GAMES = [
   },
   {
     id: 340,
+    price: null,
     title: 'Game Of Thrones Winter Is Coming',
     thumbnail: 'https://www.freetogame.com/g/340/thumbnail.jpg',
     short_description:
@@ -120,6 +128,7 @@ const GAMES = [
 
   {
     id: 11,
+    price: null,
     title: 'Neverwinter',
     thumbnail: 'https://www.freetogame.com/g/11/thumbnail.jpg',
     short_description:
@@ -135,6 +144,7 @@ const GAMES = [
 
   {
     id: 515,
+    price: null,
     title: 'Halo Infinite',
     thumbnail: 'https://www.freetogame.com/g/515/thumbnail.jpg',
     short_description:
@@ -150,6 +160,7 @@ const GAMES = [
 
   {
     id: 521,
+    price: null,
     title: 'Diablo Immortal',
     thumbnail: 'https://www.freetogame.com/g/521/thumbnail.jpg',
     short_description:
@@ -165,6 +176,7 @@ const GAMES = [
 
   {
     id: 5,
+    price: null,
     title: 'Crossout',
     thumbnail: 'https://www.freetogame.com/g/5/thumbnail.jpg',
     short_description: 'A post-apocalyptic MMO vehicle combat game! ',
@@ -178,6 +190,7 @@ const GAMES = [
   },
   {
     id: 9,
+    price: null,
     title: 'World of Warships',
     thumbnail: 'https://www.freetogame.com/g/9/thumbnail.jpg',
     short_description:
@@ -192,6 +205,7 @@ const GAMES = [
   },
   {
     id: 12,
+    price: null,
     title: 'War Thunder',
     thumbnail: 'https://www.freetogame.com/g/12/thumbnail.jpg',
     short_description:
@@ -206,6 +220,7 @@ const GAMES = [
   },
   {
     id: 2,
+    price: null,
     title: 'World of Tanks',
     thumbnail: 'https://www.freetogame.com/g/2/thumbnail.jpg',
     short_description:
@@ -221,6 +236,7 @@ const GAMES = [
 
   {
     id: 14,
+    price: null,
     title: 'Star Trek Online',
     thumbnail: 'https://www.freetogame.com/g/14/thumbnail.jpg',
     short_description:
@@ -236,6 +252,7 @@ const GAMES = [
 
   {
     id: 466,
+    price: null,
     title: 'Valorant',
     thumbnail: 'https://www.freetogame.com/g/466/thumbnail.jpg',
     short_description:
@@ -250,6 +267,7 @@ const GAMES = [
   },
   {
     id: 452,
+    price: null,
     title: 'Call Of Duty: Warzone',
     thumbnail: 'https://www.freetogame.com/g/452/thumbnail.jpg',
     short_description:
@@ -264,6 +282,7 @@ const GAMES = [
   },
   {
     id: 21,
+    price: null,
     title: 'Destiny 2',
     thumbnail: 'https://www.freetogame.com/g/21/thumbnail.jpg',
     short_description: 'A free-to-play multiplayer Sci-Fi MMOFPS from Bungie.',
@@ -278,6 +297,7 @@ const GAMES = [
 
   {
     id: 23,
+    price: null,
     title: 'Apex Legends',
     thumbnail: 'https://www.freetogame.com/g/23/thumbnail.jpg',
     short_description:
@@ -292,6 +312,7 @@ const GAMES = [
   },
   {
     id: 57,
+    price: null,
     title: 'Fortnite',
     thumbnail: 'https://www.freetogame.com/g/57/thumbnail.jpg',
     short_description:
@@ -306,6 +327,7 @@ const GAMES = [
   },
   {
     id: 449,
+    price: null,
     title: 'Albion Online',
     thumbnail: 'https://www.freetogame.com/g/449/thumbnail.jpg',
     short_description:
@@ -320,6 +342,7 @@ const GAMES = [
   },
   {
     id: 6,
+    price: null,
     title: 'Blade and Soul',
     thumbnail: 'https://www.freetogame.com/g/6/thumbnail.jpg',
     short_description:
@@ -334,6 +357,7 @@ const GAMES = [
   },
   {
     id: 212,
+    price: null,
     title: 'Brawlhalla',
     thumbnail: 'https://www.freetogame.com/g/212/thumbnail.jpg',
     short_description:
@@ -349,6 +373,7 @@ const GAMES = [
 
   {
     id: 217,
+    price: null,
     title: 'Smite',
     thumbnail: 'https://www.freetogame.com/g/217/thumbnail.jpg',
     short_description:
@@ -363,6 +388,7 @@ const GAMES = [
   },
   {
     id: 3,
+    price: null,
     title: 'Warframe',
     thumbnail: 'https://www.freetogame.com/g/3/thumbnail.jpg',
     short_description:
@@ -377,6 +403,7 @@ const GAMES = [
   },
   {
     id: 13,
+    price: null,
     title: 'Guild Wars 2',
     thumbnail: 'https://www.freetogame.com/g/13/thumbnail.jpg',
     short_description:
@@ -392,6 +419,7 @@ const GAMES = [
 
   {
     id: 255,
+    price: null,
     title: 'Stronghold Kingdoms',
     thumbnail: 'https://www.freetogame.com/g/255/thumbnail.jpg',
     short_description:
@@ -407,6 +435,7 @@ const GAMES = [
 
   {
     id: 570,
+    price: null,
     title: 'The Finals',
     thumbnail: 'https://www.freetogame.com/g/570/thumbnail.jpg',
     short_description: 'A game-show style PvP shooter from Embark Studios.',
@@ -420,6 +449,7 @@ const GAMES = [
   },
   {
     id: 577,
+    price: null,
     title: 'Deceit 2',
     thumbnail: 'https://www.freetogame.com/g/577/thumbnail.jpg',
     short_description: 'A social deduction game from World Makers.',
@@ -433,6 +463,7 @@ const GAMES = [
   },
   {
     id: 226,
+    price: null,
     title: 'Path of Exile',
     thumbnail: 'https://www.freetogame.com/g/226/thumbnail.jpg',
     short_description:
@@ -447,6 +478,7 @@ const GAMES = [
   },
   {
     id: 402,
+    price: null,
     title: 'Might And Magic Heroes Online',
     thumbnail: 'https://www.freetogame.com/g/402/thumbnail.jpg',
     short_description:
@@ -464,7 +496,7 @@ const GAMES = [
 
 const fakeGamePrice = faker.number.int({ min: 50, max: 1200 });
 
-GAMES.map(game => game.price = fakeGamePrice)
+GAMES.map((game: any) => game.price = fakeGamePrice)
 
 console.log(GAMES)
 

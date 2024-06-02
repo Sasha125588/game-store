@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 export const CartBlock = () => {
   const [isCartMenuOpen, setIsCartMenuOpen] = useState(false);
   const [parent, enableAnimations] = useAutoAnimate(/* optional config */);
-  const items = useSelector((state) => state.cart.itemsInCart);
+  const items = useSelector((state:any) => state.cart.itemsInCart);
   const totalPrice = calcTotalPrice(items);
   const navigate = useNavigate();
 

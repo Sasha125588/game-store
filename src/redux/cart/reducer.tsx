@@ -1,17 +1,22 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+export interface setItemInCartAction {
+  type: any;
+  payload: any;
+}
+
 const cartSlice = createSlice({
   name: 'cart',
   initialState: {
     itemsInCart: [],
   },
   reducers: {
-    setItemInCart: (state, action) => {
+    setItemInCart: (state: any, action: setItemInCartAction) => {
       state.itemsInCart.push(action.payload);
     },
     deleteItemFromCart: (state, action) => {
       state.itemsInCart = state.itemsInCart.filter(
-        (game) => game.id !== action.payload
+        (game: any) => game.id !== action.payload
       );
     },
   },

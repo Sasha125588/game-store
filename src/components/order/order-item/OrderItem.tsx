@@ -3,7 +3,7 @@ import { GameCover } from '../../game-cover/GameCover';
 import {AiOutlineCloseCircle} from "react-icons/ai"
 import { deleteItemFromCart } from '../../../redux/cart/reducer';
 
-export const OrderItem = ({ game }) => {
+export const OrderItem = ({ game }: {game:any}) => {
   const dispatch = useDispatch()
 
   const handleClick = () => {

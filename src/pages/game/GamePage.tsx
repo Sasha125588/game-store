@@ -3,7 +3,7 @@ import { GameGenre } from '../../components/game-genre/GameGenre';
 import { GameBuy } from '../../components/game-buy/GameBuy';
 
 export const GamePage = () => {
-  const game = useSelector((state) => state.game.currentGame);
+  const game = useSelector((state: any) => state.game.currentGame);
 
   if (!game) return null;
 

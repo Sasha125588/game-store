@@ -3,13 +3,13 @@ import { Button } from '../button/Button';
 import { deleteItemFromCart, setItemInCart } from '../../redux/cart/reducer';
 
 
-export const GameBuy = ({ game }) => {
+export const GameBuy = ({ game }: {game:any}) => {
 
   const dispatch = useDispatch();
-  const items = useSelector((state) => state.cart.itemsInCart);
-  const isItemInCart = items.some((item) => item.id === game.id);
+  const items = useSelector((state: any) => state.cart.itemsInCart);
+  const isItemInCart = items.some((item: { id: any; }) => item.id === game.id);
 
-  const handleClick = (e) => {
+  const handleClick = (e: { stopPropagation: () => void; }) => {
     e.stopPropagation();
     if (isItemInCart) {
       dispatch(deleteItemFromCart(game.id));

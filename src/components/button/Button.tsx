@@ -2,7 +2,6 @@
 export const Button = ({
   onClick,
   children,
-  size = 's',
 }: {
   children: React.ReactNode;
   onClick: React.MouseEventHandler<HTMLButtonElement>
